@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+body{
+    font-family: 'Young Serif', serif;
+}
+
+.container{
+    padding: 70px 200px 50px 200px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    justify-content: space-between;
+   align-items: flex-start;
+}
+
+.col_1{
+    flex: 3;
+    padding-right: 10px;
+}
+
+.col_1 img{
+    width: 100%;
+    height: auto;
+}
+
+.col_2{
+    flex: 7;
+    padding-left: 10px;
+}
+
+.col_2 p{
+    margin: 0;
+}
+
+.i{
+padding: 20px 20px 0 20px;
+}
+
+.choice{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.choice h3{
+    margin: 0;
+}
+
+.choice p{
+    margin: 0;
+    font-size: 20px;
+}
+
+.choice p:hover{
+    cursor: pointer;
+}
+
+.horizontal-line {
+    border-top: 1px solid rgb(180, 171, 171); /* Đổi màu và kích thước của đường ngang tại đây */
+    margin: 10px 20px 10px 0; /* Thêm margin để điều chỉnh khoảng cách với các phần tử xung quanh */
+  
+  }
+  
+
+@media (max-width: 600px){
+.container{
+    padding: 50px 30px 0px 30px;
+}
+}
